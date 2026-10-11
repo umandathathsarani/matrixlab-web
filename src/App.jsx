@@ -146,34 +146,6 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* Lab 11 Cloud Architecture & DevOps Banner */}
-      <section className="devops-banner">
-        <div className="devops-header">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <span style={{ fontSize: '1.25rem' }}>☁️</span>
-            <strong>SE3090 — Lab Practical 11: Cloud Hosting & DevOps</strong>
-          </div>
-          <span className="devops-badge">Live Tier</span>
-        </div>
-        <div className="devops-info">
-          <div className="devops-field">
-            <span>Client Platform: </span>
-            <strong>Netlify Edge CDN</strong>
-          </div>
-          <div className="devops-field">
-            <span>Configured Env: </span>
-            <code>VITE_API_URL</code>
-          </div>
-          <div className="devops-field">
-            <span>Target API: </span>
-            <code>{apiUrl}</code>
-          </div>
-          <div className="devops-field">
-            <span>Cloud Status: </span>
-            <strong>{cloudStatus}</strong>
-          </div>
-        </div>
-      </section>
 
       {/* Main Header */}
       <header className="main-header">
