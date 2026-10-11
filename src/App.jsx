@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  // Read API URL from environment variable per Lab 11 specification
   const apiUrl = import.meta.env.VITE_API_URL || 'https://matrixlab-api.onrender.com';
 
   const [matrix, setMatrix] = useState([
